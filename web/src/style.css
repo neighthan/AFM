@@ -1,0 +1,37 @@
+:root {
+  --matlab-bg: #f0f0f0;
+  --matlab-panel: #f6f6f6;
+  --matlab-panel-border: #a9a9a9;
+  --matlab-text: #111111;
+  --matlab-axis-border: #9a9a9a;
+  --matlab-axis-tick: #5f5f5f;
+  --matlab-axis-label: #1f1f1f;
+  --matlab-surface: #c9ddf1;
+  --matlab-tip: #111111;
+  --matlab-trace: #a2142f;
+
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.35;
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--matlab-text);
+  background-color: var(--matlab-bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--matlab-bg);
+}
+
+#app {
+  min-height: 100vh;
+}
